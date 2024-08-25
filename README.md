@@ -15,9 +15,7 @@
 > **في حال مواجهة اي مشكل اكتب في خاص اي بوت مفعل على السورس `#بلاغ <مشكلتك>` و بس.**
 
 # `Installation :`
-***
-### 🪽 | Termux :
-***
+
 ### 🐦‍🔥 | Cafirexos :
 <a href="https://cafirexos.com"><img src="https://cdn.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
 - Site : [cafirexos.com](https://cafirexos.com)
@@ -35,4 +33,29 @@
 |--------|--------|
 | **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-****
+***
+### 🪽 | Termux : 
+> [!NOTE]
+> **انسخ الاوامر و ضعهم مباشرة في `termux` لتنصيب سورس قمر**
+<p align="left">
+ 
+```bash
+termux-setup-storage
+```
+```bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Hyodu/Moon/master/yartex.sh | bash
+```
+
+***
+
+##### 🪽 | update in Termux
+> **امر لتحديث سورس قمر في `termux`**
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Hyodu/Moon/master/update.sh | bash
+```
+***
+###### 🪽 | 24/7 (Termux)
+> **استخدم الأمر داخل مجلد قمر لتشغيل السورس بشكل دائم 24/7**
+```bash
+npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
+```
