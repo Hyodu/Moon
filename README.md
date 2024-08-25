@@ -58,4 +58,6 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 ***
-
+# `Project Owner :`
+<a href="https://github.com/Hyodu"><img src="https://github.com/Hyodu.png" width="300" height="300" alt="GataNina-Li"/></a>
+ 
