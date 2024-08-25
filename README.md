@@ -46,16 +46,16 @@ termux-setup-storage
 apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Hyodu/Moon/master/yartex.sh | bash
 ```
 
-***
-
 ##### 🪽 | update in Termux
 > **امر لتحديث سورس قمر في `termux`**
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/Hyodu/Moon/master/update.sh | bash
 ```
-***
+
 ###### 🪽 | 24/7 (Termux)
 > **استخدم الأمر داخل مجلد قمر لتشغيل السورس بشكل دائم 24/7**
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+***
+
