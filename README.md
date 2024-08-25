@@ -15,7 +15,9 @@
 > **في حال مواجهة اي مشكل اكتب في خاص اي بوت مفعل على السورس `#بلاغ <مشكلتك>` و بس.**
 
 # `Installation :`
+***
 ### 🪽 | Termux :
+***
 ### 🐦‍🔥 | Cafirexos :
 <a href="https://cafirexos.com"><img src="https://cdn.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
 - Site : [cafirexos.com](https://cafirexos.com)
@@ -24,5 +26,13 @@
 - Document : [docs.cafirexos.com](https://docs.cafirexos.com)
 - WhatsApp Channel : [Click](https://cafirexos.com/whatsapp)
 - Support : [Click](https://cafirexos.com/comunidad)
+***
 ### 🐿️ | Heruko :
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hyodu/Moon)
 
+#### 🐿️ | Heroku Buildpack
+| BuildPack | LINK |
+|--------|--------|
+| **FFMPEG** |[click](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+****
