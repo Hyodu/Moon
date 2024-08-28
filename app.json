@@ -1,0 +1,13 @@
+{
+"name": "Moon",
+"description": "Moon is a WhatsApp Islamic bot made by `Saad`, Its purpose is to remind people of the importance of the Islamic religion, And it is a continuous charity on behalf of all Muslims 🌙🩵.",
+"repository": "https://github.com/Hyodu/Moon",
+"logo": "https://telegra.ph/file/0fbc9f3e1e7408e284826.jpg",
+"keywords": ["bot", "whatsapp", "whatsapp-bot", "islamic", "moon", "islam"],
+"buildpacks": [
+{ "url": "heroku/nodejs" },
+{ "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+{ "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" },
+{ "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick" }    
+]
+}
