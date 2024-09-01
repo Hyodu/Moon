@@ -45,6 +45,16 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) => {
                         description: '',
                         id: '#b' 
                       },
+                        {
+                    title: '↓ الـقـسـم الـثـانـي ↓',
+                    highlight_label: '📜',
+                    rows: [
+                      {
+                        header: '⌗ - قــســم الـتـعـلـيـمـات',
+                        title: '',
+                        description: '',
+                        id: '#c' 
+                      },
                     ]
                   }
                     ]
