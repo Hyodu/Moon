@@ -9,7 +9,7 @@ global.__filename = function filename(pathURL = import.meta.url, rmPrefix = plat
 const __dirname = global.__dirname(import.meta.url)
 
 global.owner = [
-['212703388528', 'Saad', true],
+['888888', 'Saad', true], // put your number inside the 8888
 ['']]
 
 global.botNumberCode = '' 
