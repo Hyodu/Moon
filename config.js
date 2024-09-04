@@ -20,7 +20,7 @@ global.mods = []
 global.prems = []
 
 
-global.isdev = [['8888888888'], [''], ['']]
+global.isdev = [['88888888'], [''], ['']]
 
 
 global.packname = 'Moon'
